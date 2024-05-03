@@ -1,0 +1,23 @@
+.customer {
+    background-color: #1e1d1d;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    border-radius: 8px;
+    float: left;
+    position: relative;
+    padding: 20px;
+    margin: 1%;
+}
+
+.customer p {
+    margin-bottom: 5px;
+}
+
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .customer {
+        width: 97%;
+        padding: 10px;
+    }
+}

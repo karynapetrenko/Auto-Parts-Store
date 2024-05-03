@@ -1,0 +1,41 @@
+.supplier {
+    background-color: #1e1d1d;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    height: 320px;
+    float: left;
+    position: relative;
+    padding: 20px;
+    margin: 1%;
+}
+
+.supplier h3 {
+    color: #970000d0;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.supplier img {
+    width: 50%;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.supplier p {
+    margin-bottom: 8px;
+}
+
+/* Responsive styles */
+@media screen and (min-width: 769px) and (max-width: 1125px) {
+    .supplier {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .supplier {
+        width: 97%;
+        padding: 10px;
+    }
+}

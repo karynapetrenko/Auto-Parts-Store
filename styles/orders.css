@@ -1,0 +1,51 @@
+.order {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 20px;
+    margin-bottom: 24px;
+    background-color: #1e1d1d;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+    width: 75%;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.customer-info h4 {
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.customer-info p {
+    margin-bottom: 10px;
+    font-size: 17px;
+    margin-left: 20px;
+}
+
+img {
+    display: block;
+    margin-top: 30px;
+    border-radius: 8px;
+    float: right;
+    margin-left: 20px;
+}
+
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .order {
+        width: 97%;
+        grid-template-columns: 1fr;
+        margin-right: 10px;
+    }
+
+    img {
+        position: relative;
+        float: left;
+        height: 270px;
+        width: 200px;
+    }
+
+}
